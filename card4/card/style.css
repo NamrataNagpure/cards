@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    bottom: 0;
+
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(223, 223, 34), rgb(214, 58, 160), rgb(206, 22, 238));
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    width: 900px;
+    height: 400px;
+    display: flex;
+
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-bottom-left-radius: 4x solid yellow;
+}
+
+h1 {
+    height: 70px;
+    background: yellow;
+
+}

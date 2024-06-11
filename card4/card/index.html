@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: linear-gradient(45deg, orange, rgb(214, 58, 160), rgb(206, 22, 238));
+            font-family: sans-serif;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-wrap: wrap;
+            margin: 5px;
+        }
+
+        .box {
+            width: 200px;
+            /* height: 250px; */
+            background: rgb(247, 242, 242);
+            text-align: center;
+            margin: 0 10px;
+            border-radius: 20px;
+
+        }
+
+        .number-box,
+        .number-box1,
+        .number-box2 {
+            height: 170px;
+            background: orange;
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 30px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+
+        .number-box1 {
+            background: rgb(211, 71, 11);
+        }
+
+        .number-box2 {
+            background: rgb(214, 5, 159);
+        }
+
+        .btn1,
+        .btn2,
+        .btn3 {
+            padding: 10px;
+            margin: 10px;
+            /* width: 40%; */
+            /* margin: 20px; */
+            border-radius: 7px;
+            border: none;
+            color: white;
+
+
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .btn1 {
+            background: rgb(225, 207, 6);
+        }
+
+        .btn2 {
+            background: rgb(211, 71, 11);
+        }
+
+        .btn3 {
+            background: rgb(214, 5, 159);
+        }
+
+
+        h1 {
+            padding-top: 35px;
+            color: white;
+        }
+        .container:hover .box{
+            filter: blur(3px);
+            opacity: 0.5;
+            transform: scale(1);
+        }
+        .container:hover .box:hover{
+            transform: scale(1);
+            filter: blur(0px);
+            opacity: 1;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="number-box">
+                <h1>1</h1>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button class="btn1">
+                read More
+            </button>
+
+        </div>
+
+        <div class="box">
+            <div class="number-box1">
+                <h1>2</h1>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button class="btn2">
+                read More
+            </button>
+
+        </div>
+
+        <div class="box">
+            <div class="number-box2">
+                <h1>3</h1>
+            </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <button class="btn3">
+                read More
+            </button>
+
+        </div>
+    </div>
+</body>
+
+</html>
